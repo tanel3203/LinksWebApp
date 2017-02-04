@@ -1,0 +1,111 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div id="links-form">
+    <br>
+    <form>
+    <!-- PERSONAL INFO -->
+        <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="inputFirstName">Eesnimi</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="Jane">
+              </div>
+              <div class="form-group">
+                <label for="inputLastName">Perenimi</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Doe">
+              </div>
+              <div class="form-group">
+                <label for="inputBirthDate">Sünnikuupäev</label>
+                <input type="date" class="form-control" id="inputBirthDate">
+              </div>
+            </div>
+        </div>
+
+        <!-- FAVORITES -->
+        <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="inputTitle">Pealkiri</label>
+                <input type="text" class="form-control" id="inputTitle" placeholder="Legend of Zelda">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="inputUrl">URL</label>
+                <input type="url" class="form-control" id="inputUrl" placeholder="www.zelda.com">
+              </div>
+            </div>
+        </div> <!-- /row -->
+        <div class="row">        
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="inputDescription">Kirjeldus</label>
+                <input type="textarea" class="form-control" id="inputDescription" placeholder="Zelda does ...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="inputOwnerName">Omaniku nimi</label>
+                <input type="text" class="form-control" id="inputOwnerName" placeholder="John Doe">
+              </div>
+            </div> 
+        </div> <!-- /row -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="inputCategory">Kategooria</label>
+                <select name="inputCategory" id="inputCategory">
+                  <option value="meelelahutus">meelelahutus</option>
+                  <option value="tehnoloogiauudised">tehnoloogiauudised</option>
+                  <option value="muu">muu</option>
+                </select>
+              </div>
+            </div>
+        </div> <!-- /row -->
+        <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="inputPoints">Punktid</label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6"> 6
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7"> 7
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option8"> 8
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option9"> 9
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option10"> 10
+                </label>
+              </div>
+            </div>
+        </div> <!-- /row -->
+
+
+
+      <button type="submit" class="btn btn-default">Sisesta</button>
+    </form>
+</div>
+
